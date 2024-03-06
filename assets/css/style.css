@@ -1,3 +1,6 @@
+html {
+  font-family: "Raleway", sans-serif;
+}
 .logo {
   width: 150px;
   height: 50px;
@@ -7,8 +10,8 @@ nav {
   display: inline;
   margin: 0 20px 0px 20px;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
 nav ul {
@@ -32,53 +35,141 @@ nav ul li a {
 .iconos-carrito {
   margin-left: auto;
 }
+h1 {
+  font-weight: 500;
+}
 header {
   background-image: url(../img/imagenFondoInicio.png);
   background-repeat: no-repeat;
   height: 50vh;
   color: white;
 }
-.textoHeader{
-    margin-left: 10vw;
-    padding-top: 6em;
+
+.textoHeader {
+  margin-left: 10vw;
+  padding-top: 6em;
+  font-weight: 500;
+}
+.buttonHeader {
+  padding: 12px 30px;
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 1.2em;
+  font-size: 0.8em;
+}
+h1 {
+  font-size: 3.5em;
+}
+.pieHeader {
+  text-align: center;
+}
+.pieHeader ul li {
+  margin-right: 20px;
+  display: inline-block;
+  justify-content: center;
+}
+.separador {
+  border-bottom: 2px solid #eae0d5;
+}
+.seccionJoyas {
+  margin: 50px 10vw 20px 10vw;
+}
+.seccionJoyas h2{
+    font-weight: 300;
+}
+.joyas {
+  background-color: #eae0d5;
+  padding-top: 10px;
+}
+.joyasLogoBlanco{
+    text-align: right;
+}
+.joyasLogoBlanco img{
+    height: 3.5em;
+}
+
+.tipoMaterialJoya li,
+.estiloJoyas li {
+  display: inline;
+}
+.tipoMaterialJoya{
+ margin-bottom: 2em;
+ color: #212121aa;
+}
+.tipoMaterialJoya li {
+  margin-right: 4em;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+.nuevaColeccion{
+    margin: 5vw 13.3vh;
+}
+.contenedorNuevaColeccion{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.imagenNuevaColeccion{
+    background-image: url(../img/nuevaColeccion.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 28vh;
+    background-position: start;
 
 }
-.buttonHeader{
-    padding: 10px 20px;
-    border-radius: 4px;
-    border: none;
+.imagenNuevaColeccion p{
+    font-size: 1.6em;
     font-weight: 600;
-    text-transform: uppercase;
-    margin-top: 1.2em;
+    text-align: right;
+    padding-right: 1em;
+    padding-top: 17.5vh;
 }
-h1{
-    font-size: 3.5em;
-}
-.pieHeader{
-    text-align: center;
-}
-.pieHeader ul li{
-    margin-right: 20px;
-    display: inline-block;
+.joyasNuevaColeccion, .masJoyas{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
     justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
 }
-.separador{
-    border-bottom: 2px solid #EAE0D5 ;
-}
-.seccionJoyas{
-    margin: 50px 10vw 20px 10vw;
-}
-.joyas{
-    background-color: #EAE0D5;
-  
-    border-radius: 10px;
-    padding-top: 10px;
-}
+.masJoyas .cartasJoyas{
+   margin-right: 2.2rem;
+   margin-top: 2rem;
 
-.tipoMaterialJoya li, .estiloJoyas li{
+}
+.cartasJoyas{
+    width: 38%;
+    padding: 0.8em 0.5em;
+    height: 25vh;
+    border: 2px solid #E4AD52;
+    border-radius: 5px;
+    box-sizing: content-box;
+    margin: auto;
+    box-shadow: 6px 6px #21212125;
+}
+.joyasNuevaColeccion img{
+    width: 100%;
+    height: 60%;
+
+}
+.detalleJoya p{
+    padding: 0;
+    font-weight: 300;
+    font-size: 1.2em;
     display: inline;
 }
-.tipoMaterialJoya li{
-    margin-right: 20px;
-    font-size: 20px;
+.detalleJoya ul{
+    justify-content: space-between;
+    padding: 0;
+    display: flex;
+}
+.detalleJoya ul li img{
+    width: 70%;
+    display: inline;
 }
