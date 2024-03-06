@@ -76,100 +76,119 @@ h1 {
 .seccionJoyas {
   margin: 50px 10vw 20px 10vw;
 }
-.seccionJoyas h2{
-    font-weight: 300;
+.seccionJoyas h2 {
+  font-weight: 300;
 }
 .joyas {
   background-color: #eae0d5;
   padding-top: 10px;
 }
-.joyasLogoBlanco{
-    text-align: right;
+.joyasLogoBlanco {
+  text-align: right;
 }
-.joyasLogoBlanco img{
-    height: 3.5em;
+.joyasLogoBlanco img {
+  height: 3.5em;
 }
 
 .tipoMaterialJoya li,
 .estiloJoyas li {
   display: inline;
 }
-.tipoMaterialJoya{
- margin-bottom: 2em;
- color: #212121aa;
+.tipoMaterialJoya {
+  margin-bottom: 2em;
+  color: #212121aa;
 }
 .tipoMaterialJoya li {
   margin-right: 4em;
   font-size: 1.8em;
   font-weight: 600;
 }
-.nuevaColeccion{
-    margin: 5vw 13.3vh;
+.nuevaColeccion {
+  margin: 5vw 13.3vh;
 }
-.contenedorNuevaColeccion{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: stretch;
+.contenedorNuevaColeccion {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: stretch;
 }
-.imagenNuevaColeccion{
-    background-image: url(../img/nuevaColeccion.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 28vh;
-    background-position: start;
-
+.imagenNuevaColeccion {
+  background-image: url(../img/nuevaColeccion.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 28vh;
+  background-position: start;
 }
-.imagenNuevaColeccion p{
-    font-size: 1.6em;
-    font-weight: 600;
-    text-align: right;
-    padding-right: 1em;
-    padding-top: 17.5vh;
+.imagenNuevaColeccion p {
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: right;
+  padding-right: 1em;
+  padding-top: 17.5vh;
 }
-.joyasNuevaColeccion, .masJoyas{
+.joyasNuevaColeccion,
+.masJoyas {
     display: flex;
     width: 100%;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: stretch;
     flex-direction: row;
 }
-.masJoyas .cartasJoyas{
-   margin-right: 2.2rem;
-   margin-top: 2rem;
-
+.masJoyas .cartasJoyas {
+  margin-right: 2rem;
+  margin-top: 2rem;
+  margin-left: 1.2rem;
 }
-.cartasJoyas{
-    width: 38%;
-    padding: 0.8em 0.5em;
-    height: 25vh;
-    border: 2px solid #E4AD52;
-    border-radius: 5px;
-    box-sizing: content-box;
-    margin: auto;
-    box-shadow: 6px 6px #21212125;
+.cartasJoyas {
+  width: 35%;
+  padding: 0.8em 0.5em;
+  height: 25vh;
+  border: 2px solid #e4ad52;
+  border-radius: 5px;
+  box-shadow: 6px 6px #21212125;
 }
-.joyasNuevaColeccion img{
-    width: 100%;
-    height: 60%;
-
+.joyasNuevaColeccion img {
+  width: 100%;
+  height: 60%;
 }
-.detalleJoya p{
-    padding: 0;
-    font-weight: 300;
-    font-size: 1.2em;
-    display: inline;
+.masJoyas .cartasJoyas img{
+    height: 50%;
+    width:80%;
 }
-.detalleJoya ul{
-    justify-content: space-between;
-    padding: 0;
+.detalleJoya p {
+  padding: 0;
+  font-weight: 300;
+  font-size: 1.2em;
+  display: inline;
+}
+.detalleJoya ul {
+  justify-content: space-between;
+  padding: 0;
+  display: flex;
+}
+.detalleJoya ul li img {
+  width: 70%;
+  display: inline;
+}
+.buttonNuevaColeccion{
     display: flex;
+    justify-content: center;
 }
-.detalleJoya ul li img{
-    width: 70%;
-    display: inline;
+.nuevaColeccion button{
+    margin-top: 2rem;
+    text-transform: uppercase;
+    padding:1em 4em;
+    border: 2px solid #AC8455;
+    border-radius: 4px;
+    color: #AC8455;
+    font-weight: 500;
+}
+.footer{
+    text-align: center;
+    background-color: #eae0d5;
+    padding: 2em;
 }
