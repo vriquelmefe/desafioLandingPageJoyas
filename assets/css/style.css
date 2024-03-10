@@ -137,7 +137,6 @@ h1 {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: stretch;
-    flex-direction: row;
 }
 .masJoyas .cartasJoyas {
   margin-right: 2rem;
@@ -151,6 +150,11 @@ h1 {
   border: 2px solid #e4ad52;
   border-radius: 5px;
   box-shadow: 6px 6px #21212125;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: center;
 }
 .joyasNuevaColeccion img {
   width: 70%;
